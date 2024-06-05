@@ -1,0 +1,16 @@
+C:\Users\rober\source\repos\examen_ejercicio3\examen_ejercicio3\bin\Debug\net8.0-windows\examen_ejercicio3.exe
+C:\Users\rober\source\repos\examen_ejercicio3\examen_ejercicio3\bin\Debug\net8.0-windows\examen_ejercicio3.deps.json
+C:\Users\rober\source\repos\examen_ejercicio3\examen_ejercicio3\bin\Debug\net8.0-windows\examen_ejercicio3.runtimeconfig.json
+C:\Users\rober\source\repos\examen_ejercicio3\examen_ejercicio3\bin\Debug\net8.0-windows\examen_ejercicio3.dll
+C:\Users\rober\source\repos\examen_ejercicio3\examen_ejercicio3\bin\Debug\net8.0-windows\examen_ejercicio3.pdb
+C:\Users\rober\source\repos\examen_ejercicio3\examen_ejercicio3\obj\Debug\net8.0-windows\examen_ejercicio3.Form1.resources
+C:\Users\rober\source\repos\examen_ejercicio3\examen_ejercicio3\obj\Debug\net8.0-windows\examen_ejercicio3.csproj.GenerateResource.cache
+C:\Users\rober\source\repos\examen_ejercicio3\examen_ejercicio3\obj\Debug\net8.0-windows\examen_ejercicio3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\source\repos\examen_ejercicio3\examen_ejercicio3\obj\Debug\net8.0-windows\examen_ejercicio3.AssemblyInfoInputs.cache
+C:\Users\rober\source\repos\examen_ejercicio3\examen_ejercicio3\obj\Debug\net8.0-windows\examen_ejercicio3.AssemblyInfo.cs
+C:\Users\rober\source\repos\examen_ejercicio3\examen_ejercicio3\obj\Debug\net8.0-windows\examen_ejercicio3.csproj.CoreCompileInputs.cache
+C:\Users\rober\source\repos\examen_ejercicio3\examen_ejercicio3\obj\Debug\net8.0-windows\examen_ejercicio3.dll
+C:\Users\rober\source\repos\examen_ejercicio3\examen_ejercicio3\obj\Debug\net8.0-windows\refint\examen_ejercicio3.dll
+C:\Users\rober\source\repos\examen_ejercicio3\examen_ejercicio3\obj\Debug\net8.0-windows\examen_ejercicio3.pdb
+C:\Users\rober\source\repos\examen_ejercicio3\examen_ejercicio3\obj\Debug\net8.0-windows\examen_ejercicio3.genruntimeconfig.cache
+C:\Users\rober\source\repos\examen_ejercicio3\examen_ejercicio3\obj\Debug\net8.0-windows\ref\examen_ejercicio3.dll

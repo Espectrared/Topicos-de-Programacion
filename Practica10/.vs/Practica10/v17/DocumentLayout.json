@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rober\\source\\repos\\Practica10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF022AA-7E4E-41F2-B3A8-1FF5948322E9}|Practica10\\Practica10.csproj|c:\\users\\rober\\source\\repos\\practica10\\practica10\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CAF022AA-7E4E-41F2-B3A8-1FF5948322E9}|Practica10\\Practica10.csproj|solutionrelative:practica10\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF022AA-7E4E-41F2-B3A8-1FF5948322E9}|Practica10\\Practica10.csproj|C:\\Users\\rober\\source\\repos\\Practica10\\practica10\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF022AA-7E4E-41F2-B3A8-1FF5948322E9}|Practica10\\Practica10.csproj|solutionrelative:practica10\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rober\\source\\repos\\Practica10\\Practica10\\Form1.cs",
+              "RelativeDocumentMoniker": "Practica10\\Form1.cs",
+              "ToolTip": "C:\\Users\\rober\\source\\repos\\Practica10\\Practica10\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Practica10\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-19T22:52:27.369Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\source\\repos\\Practica10\\Practica10\\Form1.cs",
+              "RelativeDocumentMoniker": "Practica10\\Form1.cs",
+              "ToolTip": "C:\\Users\\rober\\source\\repos\\Practica10\\Practica10\\Form1.cs",
+              "RelativeToolTip": "Practica10\\Form1.cs",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAAAJkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T22:25:15.861Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

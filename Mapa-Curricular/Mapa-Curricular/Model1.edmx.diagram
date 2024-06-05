@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="577a78c9f16149f0ba257340fc4b7e9e" Name="Diagram1" ZoomLevel="56">
+        <EntityTypeShape EntityType="Estudiantes_UABCModel.EstadoMateria" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Estudiantes_UABCModel.Estudiantes" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Estudiantes_UABCModel.Expedientes" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Estudiantes_UABCModel.Mapa_Curricular" Width="1.5" PointX="5.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Estudiantes_UABCModel.Materia" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Estudiantes_UABCModel.Programa_Educativo" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Estudiantes_UABCModel.Trayectorias_academicas" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Estudiantes_UABCModel.Tutores" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="Estudiantes_UABCModel.FK__Trayector__Estad__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="Estudiantes_UABCModel.FK__Expedient__Matri__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="Estudiantes_UABCModel.FK__Trayector__Exped__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="Estudiantes_UABCModel.FK__Tutores__Expedie__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="Estudiantes_UABCModel.FK__Mapa_Curr__Progr__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="Estudiantes_UABCModel.FK__Trayector__Mater__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="Estudiantes_UABCModel.MateriaProgramaEducativo" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

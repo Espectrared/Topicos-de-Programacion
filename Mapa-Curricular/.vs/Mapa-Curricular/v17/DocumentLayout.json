@@ -1,0 +1,115 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{41DDC78B-BDE1-4D5C-8BE5-18D4D6BBAB3C}|Mapa-Curricular\\Mapa-Curricular.csproj|C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\mapa-curricular\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{41DDC78B-BDE1-4D5C-8BE5-18D4D6BBAB3C}|Mapa-Curricular\\Mapa-Curricular.csproj|solutionrelative:mapa-curricular\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DDC78B-BDE1-4D5C-8BE5-18D4D6BBAB3C}|Mapa-Curricular\\Mapa-Curricular.csproj|c:\\users\\rober\\source\\repos\\mapa-curricular\\mapa-curricular\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{41DDC78B-BDE1-4D5C-8BE5-18D4D6BBAB3C}|Mapa-Curricular\\Mapa-Curricular.csproj|solutionrelative:mapa-curricular\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DDC78B-BDE1-4D5C-8BE5-18D4D6BBAB3C}|Mapa-Curricular\\Mapa-Curricular.csproj|C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\mapa-curricular\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{41DDC78B-BDE1-4D5C-8BE5-18D4D6BBAB3C}|Mapa-Curricular\\Mapa-Curricular.csproj|solutionrelative:mapa-curricular\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DDC78B-BDE1-4D5C-8BE5-18D4D6BBAB3C}|Mapa-Curricular\\Mapa-Curricular.csproj|C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\mapa-curricular\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41DDC78B-BDE1-4D5C-8BE5-18D4D6BBAB3C}|Mapa-Curricular\\Mapa-Curricular.csproj|solutionrelative:mapa-curricular\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DDC78B-BDE1-4D5C-8BE5-18D4D6BBAB3C}|Mapa-Curricular\\Mapa-Curricular.csproj|C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\mapa-curricular\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{41DDC78B-BDE1-4D5C-8BE5-18D4D6BBAB3C}|Mapa-Curricular\\Mapa-Curricular.csproj|solutionrelative:mapa-curricular\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41DDC78B-BDE1-4D5C-8BE5-18D4D6BBAB3C}|Mapa-Curricular\\Mapa-Curricular.csproj|C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\mapa-curricular\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{41DDC78B-BDE1-4D5C-8BE5-18D4D6BBAB3C}|Mapa-Curricular\\Mapa-Curricular.csproj|solutionrelative:mapa-curricular\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form3.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\Mapa-Curricular\\Form3.cs",
+              "RelativeDocumentMoniker": "Mapa-Curricular\\Form3.cs",
+              "ToolTip": "C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\Mapa-Curricular\\Form3.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Mapa-Curricular\\Form3.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:50:24.835Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\Mapa-Curricular\\Form1.cs",
+              "RelativeDocumentMoniker": "Mapa-Curricular\\Form1.cs",
+              "ToolTip": "C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\Mapa-Curricular\\Form1.cs",
+              "RelativeToolTip": "Mapa-Curricular\\Form1.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAuwFIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T22:53:50.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\Mapa-Curricular\\Form1.cs",
+              "RelativeDocumentMoniker": "Mapa-Curricular\\Form1.cs",
+              "ToolTip": "C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\Mapa-Curricular\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Mapa-Curricular\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T22:25:38.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\Mapa-Curricular\\App.config",
+              "RelativeDocumentMoniker": "Mapa-Curricular\\App.config",
+              "ToolTip": "C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\Mapa-Curricular\\App.config",
+              "RelativeToolTip": "Mapa-Curricular\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-23T22:36:13.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\Mapa-Curricular\\Model1.edmx",
+              "RelativeDocumentMoniker": "Mapa-Curricular\\Model1.edmx",
+              "ToolTip": "C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\Mapa-Curricular\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Mapa-Curricular\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-05-23T22:33:17.879Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\Mapa-Curricular\\Form2.cs",
+              "RelativeDocumentMoniker": "Mapa-Curricular\\Form2.cs",
+              "ToolTip": "C:\\Users\\rober\\source\\repos\\Mapa-Curricular\\Mapa-Curricular\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Mapa-Curricular\\Form2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T21:39:41.767Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

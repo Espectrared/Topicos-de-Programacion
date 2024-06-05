@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Estudiantes_UABCModelStoreContainer" CdmEntityContainer="Estudiantes_UABCEntities">
+    <EntitySetMapping Name="EstadoMateria">
+      <EntityTypeMapping TypeName="Estudiantes_UABCModel.EstadoMateria">
+        <MappingFragment StoreEntitySet="EstadoMateria">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Estudiantes">
+      <EntityTypeMapping TypeName="Estudiantes_UABCModel.Estudiantes">
+        <MappingFragment StoreEntitySet="Estudiantes">
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Contra" ColumnName="Contra" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Expedientes">
+      <EntityTypeMapping TypeName="Estudiantes_UABCModel.Expedientes">
+        <MappingFragment StoreEntitySet="Expedientes">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Etapa" ColumnName="Etapa" />
+          <ScalarProperty Name="Programa_Educativo" ColumnName="Programa_Educativo" />
+          <ScalarProperty Name="Matricula" ColumnName="Matricula" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Mapa_Curricular">
+      <EntityTypeMapping TypeName="Estudiantes_UABCModel.Mapa_Curricular">
+        <MappingFragment StoreEntitySet="Mapa_Curricular">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Vigencia_del_plan" ColumnName="Vigencia_del_plan" />
+          <ScalarProperty Name="ProgramaEducativoID" ColumnName="ProgramaEducativoID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Materia">
+      <EntityTypeMapping TypeName="Estudiantes_UABCModel.Materia">
+        <MappingFragment StoreEntitySet="Materia">
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+          <ScalarProperty Name="Créditos" ColumnName="Créditos" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="Horas_clase" ColumnName="Horas_clase" />
+          <ScalarProperty Name="Horas_laboratorio" ColumnName="Horas_laboratorio" />
+          <ScalarProperty Name="Horas_taller" ColumnName="Horas_taller" />
+          <ScalarProperty Name="Etapa" ColumnName="Etapa" />
+          <ScalarProperty Name="Semestre" ColumnName="Semestre" />
+          <ScalarProperty Name="Obligatoria" ColumnName="Obligatoria" />
+          <ScalarProperty Name="Carta_descriptiva" ColumnName="Carta_descriptiva" />
+          <ScalarProperty Name="Seriada" ColumnName="Seriada" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Programa_Educativo">
+      <EntityTypeMapping TypeName="Estudiantes_UABCModel.Programa_Educativo">
+        <MappingFragment StoreEntitySet="Programa_Educativo">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Trayectorias_academicas">
+      <EntityTypeMapping TypeName="Estudiantes_UABCModel.Trayectorias_academicas">
+        <MappingFragment StoreEntitySet="Trayectorias_academicas">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Fecha_ingreso" ColumnName="Fecha_ingreso" />
+          <ScalarProperty Name="ExpedienteID" ColumnName="ExpedienteID" />
+          <ScalarProperty Name="MateriaClave" ColumnName="MateriaClave" />
+          <ScalarProperty Name="Calificacion" ColumnName="Calificacion" />
+          <ScalarProperty Name="EstadoID" ColumnName="EstadoID" />
+          <ScalarProperty Name="Seleccion" ColumnName="Seleccion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tutores">
+      <EntityTypeMapping TypeName="Estudiantes_UABCModel.Tutores">
+        <MappingFragment StoreEntitySet="Tutores">
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ExpedienteID" ColumnName="ExpedienteID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="MateriaProgramaEducativo" TypeName="Estudiantes_UABCModel.MateriaProgramaEducativo" StoreEntitySet="MateriaProgramaEducativo">
+      <EndProperty Name="Materia">
+        <ScalarProperty Name="Clave" ColumnName="MateriaClave" />
+      </EndProperty>
+      <EndProperty Name="Programa_Educativo">
+        <ScalarProperty Name="ID" ColumnName="ProgramaEducativoID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

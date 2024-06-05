@@ -1,0 +1,17 @@
+C:\Users\rober\source\repos\practica13\practica13\bin\Debug\net8.0-windows\practica13.exe
+C:\Users\rober\source\repos\practica13\practica13\bin\Debug\net8.0-windows\practica13.deps.json
+C:\Users\rober\source\repos\practica13\practica13\bin\Debug\net8.0-windows\practica13.runtimeconfig.json
+C:\Users\rober\source\repos\practica13\practica13\bin\Debug\net8.0-windows\practica13.dll
+C:\Users\rober\source\repos\practica13\practica13\bin\Debug\net8.0-windows\practica13.pdb
+C:\Users\rober\source\repos\practica13\practica13\obj\Debug\net8.0-windows\practica13.Form1.resources
+C:\Users\rober\source\repos\practica13\practica13\obj\Debug\net8.0-windows\practica13.Properties.Resources.resources
+C:\Users\rober\source\repos\practica13\practica13\obj\Debug\net8.0-windows\practica13.csproj.GenerateResource.cache
+C:\Users\rober\source\repos\practica13\practica13\obj\Debug\net8.0-windows\practica13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\source\repos\practica13\practica13\obj\Debug\net8.0-windows\practica13.AssemblyInfoInputs.cache
+C:\Users\rober\source\repos\practica13\practica13\obj\Debug\net8.0-windows\practica13.AssemblyInfo.cs
+C:\Users\rober\source\repos\practica13\practica13\obj\Debug\net8.0-windows\practica13.csproj.CoreCompileInputs.cache
+C:\Users\rober\source\repos\practica13\practica13\obj\Debug\net8.0-windows\practica13.dll
+C:\Users\rober\source\repos\practica13\practica13\obj\Debug\net8.0-windows\refint\practica13.dll
+C:\Users\rober\source\repos\practica13\practica13\obj\Debug\net8.0-windows\practica13.pdb
+C:\Users\rober\source\repos\practica13\practica13\obj\Debug\net8.0-windows\practica13.genruntimeconfig.cache
+C:\Users\rober\source\repos\practica13\practica13\obj\Debug\net8.0-windows\ref\practica13.dll

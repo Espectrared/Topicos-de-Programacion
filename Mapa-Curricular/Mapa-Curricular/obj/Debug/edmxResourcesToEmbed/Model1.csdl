@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Estudiantes_UABCModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="EstadoMateria">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Estado" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Trayectorias_academicas" Relationship="Self.FK__Trayector__Estad__4D94879B" FromRole="EstadoMateria" ToRole="Trayectorias_academicas" />
+  </EntityType>
+  <EntityType Name="Estudiantes">
+    <Key>
+      <PropertyRef Name="Matricula" />
+    </Key>
+    <Property Name="Matricula" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Correo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Contra" Type="String" MaxLength="60" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Expedientes" Relationship="Self.FK__Expedient__Matri__398D8EEE" FromRole="Estudiantes" ToRole="Expedientes" />
+    <NavigationProperty Name="Trayectorias_academicas" Relationship="Self.FK__Trayector__Exped__4BAC3F29" FromRole="Estudiantes" ToRole="Trayectorias_academicas" />
+  </EntityType>
+  <EntityType Name="Expedientes">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Estado" Type="Boolean" Nullable="false" />
+    <Property Name="Etapa" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Programa_Educativo" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Matricula" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Estudiantes" Relationship="Self.FK__Expedient__Matri__398D8EEE" FromRole="Expedientes" ToRole="Estudiantes" />
+    <NavigationProperty Name="Tutores" Relationship="Self.FK__Tutores__Expedie__3C69FB99" FromRole="Expedientes" ToRole="Tutores" />
+  </EntityType>
+  <EntityType Name="Mapa_Curricular">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Vigencia_del_plan" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ProgramaEducativoID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Programa_Educativo" Relationship="Self.FK__Mapa_Curr__Progr__4316F928" FromRole="Mapa_Curricular" ToRole="Programa_Educativo" />
+  </EntityType>
+  <EntityType Name="Materia">
+    <Key>
+      <PropertyRef Name="Clave" />
+    </Key>
+    <Property Name="Clave" Type="Int32" Nullable="false" />
+    <Property Name="Créditos" Type="Int32" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Horas_clase" Type="Int32" Nullable="false" />
+    <Property Name="Horas_laboratorio" Type="Int32" Nullable="false" />
+    <Property Name="Horas_taller" Type="Int32" Nullable="false" />
+    <Property Name="Etapa" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Semestre" Type="Int32" Nullable="false" />
+    <Property Name="Obligatoria" Type="Boolean" Nullable="false" />
+    <Property Name="Carta_descriptiva" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Seriada" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Trayectorias_academicas" Relationship="Self.FK__Trayector__Mater__4CA06362" FromRole="Materia" ToRole="Trayectorias_academicas" />
+    <NavigationProperty Name="Programa_Educativo" Relationship="Self.MateriaProgramaEducativo" FromRole="Materia" ToRole="Programa_Educativo" />
+  </EntityType>
+  <EntityType Name="Programa_Educativo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Mapa_Curricular" Relationship="Self.FK__Mapa_Curr__Progr__4316F928" FromRole="Programa_Educativo" ToRole="Mapa_Curricular" />
+    <NavigationProperty Name="Materia" Relationship="Self.MateriaProgramaEducativo" FromRole="Programa_Educativo" ToRole="Materia" />
+  </EntityType>
+  <EntityType Name="Trayectorias_academicas">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Fecha_ingreso" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ExpedienteID" Type="Int32" Nullable="false" />
+    <Property Name="MateriaClave" Type="Int32" Nullable="false" />
+    <Property Name="Calificacion" Type="Int32" />
+    <Property Name="EstadoID" Type="Int32" Nullable="false" />
+    <Property Name="Seleccion" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="EstadoMateria" Relationship="Self.FK__Trayector__Estad__4D94879B" FromRole="Trayectorias_academicas" ToRole="EstadoMateria" />
+    <NavigationProperty Name="Estudiantes" Relationship="Self.FK__Trayector__Exped__4BAC3F29" FromRole="Trayectorias_academicas" ToRole="Estudiantes" />
+    <NavigationProperty Name="Materia" Relationship="Self.FK__Trayector__Mater__4CA06362" FromRole="Trayectorias_academicas" ToRole="Materia" />
+  </EntityType>
+  <EntityType Name="Tutores">
+    <Key>
+      <PropertyRef Name="Correo" />
+    </Key>
+    <Property Name="Correo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ExpedienteID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Expedientes" Relationship="Self.FK__Tutores__Expedie__3C69FB99" FromRole="Tutores" ToRole="Expedientes" />
+  </EntityType>
+  <Association Name="FK__Trayector__Estad__4D94879B">
+    <End Role="EstadoMateria" Type="Self.EstadoMateria" Multiplicity="1" />
+    <End Role="Trayectorias_academicas" Type="Self.Trayectorias_academicas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EstadoMateria">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Trayectorias_academicas">
+        <PropertyRef Name="EstadoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Expedient__Matri__398D8EEE">
+    <End Role="Estudiantes" Type="Self.Estudiantes" Multiplicity="1" />
+    <End Role="Expedientes" Type="Self.Expedientes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estudiantes">
+        <PropertyRef Name="Matricula" />
+      </Principal>
+      <Dependent Role="Expedientes">
+        <PropertyRef Name="Matricula" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Trayector__Exped__4BAC3F29">
+    <End Role="Estudiantes" Type="Self.Estudiantes" Multiplicity="1" />
+    <End Role="Trayectorias_academicas" Type="Self.Trayectorias_academicas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Estudiantes">
+        <PropertyRef Name="Matricula" />
+      </Principal>
+      <Dependent Role="Trayectorias_academicas">
+        <PropertyRef Name="ExpedienteID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Tutores__Expedie__3C69FB99">
+    <End Role="Expedientes" Type="Self.Expedientes" Multiplicity="1" />
+    <End Role="Tutores" Type="Self.Tutores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Expedientes">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Tutores">
+        <PropertyRef Name="ExpedienteID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Mapa_Curr__Progr__4316F928">
+    <End Role="Programa_Educativo" Type="Self.Programa_Educativo" Multiplicity="1" />
+    <End Role="Mapa_Curricular" Type="Self.Mapa_Curricular" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Programa_Educativo">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Mapa_Curricular">
+        <PropertyRef Name="ProgramaEducativoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Trayector__Mater__4CA06362">
+    <End Role="Materia" Type="Self.Materia" Multiplicity="1" />
+    <End Role="Trayectorias_academicas" Type="Self.Trayectorias_academicas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Materia">
+        <PropertyRef Name="Clave" />
+      </Principal>
+      <Dependent Role="Trayectorias_academicas">
+        <PropertyRef Name="MateriaClave" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="MateriaProgramaEducativo">
+    <End Role="Materia" Type="Self.Materia" Multiplicity="*" />
+    <End Role="Programa_Educativo" Type="Self.Programa_Educativo" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="Estudiantes_UABCEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="EstadoMateria" EntityType="Self.EstadoMateria" />
+    <EntitySet Name="Estudiantes" EntityType="Self.Estudiantes" />
+    <EntitySet Name="Expedientes" EntityType="Self.Expedientes" />
+    <EntitySet Name="Mapa_Curricular" EntityType="Self.Mapa_Curricular" />
+    <EntitySet Name="Materia" EntityType="Self.Materia" />
+    <EntitySet Name="Programa_Educativo" EntityType="Self.Programa_Educativo" />
+    <EntitySet Name="Trayectorias_academicas" EntityType="Self.Trayectorias_academicas" />
+    <EntitySet Name="Tutores" EntityType="Self.Tutores" />
+    <AssociationSet Name="FK__Trayector__Estad__4D94879B" Association="Self.FK__Trayector__Estad__4D94879B">
+      <End Role="EstadoMateria" EntitySet="EstadoMateria" />
+      <End Role="Trayectorias_academicas" EntitySet="Trayectorias_academicas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Expedient__Matri__398D8EEE" Association="Self.FK__Expedient__Matri__398D8EEE">
+      <End Role="Estudiantes" EntitySet="Estudiantes" />
+      <End Role="Expedientes" EntitySet="Expedientes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Trayector__Exped__4BAC3F29" Association="Self.FK__Trayector__Exped__4BAC3F29">
+      <End Role="Estudiantes" EntitySet="Estudiantes" />
+      <End Role="Trayectorias_academicas" EntitySet="Trayectorias_academicas" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Tutores__Expedie__3C69FB99" Association="Self.FK__Tutores__Expedie__3C69FB99">
+      <End Role="Expedientes" EntitySet="Expedientes" />
+      <End Role="Tutores" EntitySet="Tutores" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Mapa_Curr__Progr__4316F928" Association="Self.FK__Mapa_Curr__Progr__4316F928">
+      <End Role="Programa_Educativo" EntitySet="Programa_Educativo" />
+      <End Role="Mapa_Curricular" EntitySet="Mapa_Curricular" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Trayector__Mater__4CA06362" Association="Self.FK__Trayector__Mater__4CA06362">
+      <End Role="Materia" EntitySet="Materia" />
+      <End Role="Trayectorias_academicas" EntitySet="Trayectorias_academicas" />
+    </AssociationSet>
+    <AssociationSet Name="MateriaProgramaEducativo" Association="Self.MateriaProgramaEducativo">
+      <End Role="Materia" EntitySet="Materia" />
+      <End Role="Programa_Educativo" EntitySet="Programa_Educativo" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

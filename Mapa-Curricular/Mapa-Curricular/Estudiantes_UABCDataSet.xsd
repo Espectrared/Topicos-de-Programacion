@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Estudiantes_UABCDataSet" targetNamespace="http://tempuri.org/Estudiantes_UABCDataSet.xsd" xmlns:mstns="http://tempuri.org/Estudiantes_UABCDataSet.xsd" xmlns="http://tempuri.org/Estudiantes_UABCDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Estudiantes_UABCConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Estudiantes_UABCConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Mapa_Curricular.Properties.Settings.GlobalReference.Default.Estudiantes_UABCConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ExpedientesTableAdapter" GeneratorDataComponentClassName="ExpedientesTableAdapter" Name="Expedientes" UserDataComponentName="ExpedientesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Estudiantes_UABCConnectionString (Settings)" DbObjectName="Estudiantes_UABC.dbo.Expedientes" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Programa_Educativo FROM dbo.Expedientes</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Programa_Educativo" DataSetColumn="Programa_Educativo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Estudiantes_UABCDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="Estudiantes_UABCDataSet" msprop:Generator_DataSetName="Estudiantes_UABCDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Expedientes" msprop:Generator_RowEvHandlerName="ExpedientesRowChangeEventHandler" msprop:Generator_RowDeletedName="ExpedientesRowDeleted" msprop:Generator_RowDeletingName="ExpedientesRowDeleting" msprop:Generator_RowEvArgName="ExpedientesRowChangeEvent" msprop:Generator_TablePropName="Expedientes" msprop:Generator_RowChangedName="ExpedientesRowChanged" msprop:Generator_RowChangingName="ExpedientesRowChanging" msprop:Generator_TableClassName="ExpedientesDataTable" msprop:Generator_RowClassName="ExpedientesRow" msprop:Generator_TableVarName="tableExpedientes" msprop:Generator_UserTableName="Expedientes">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Programa_Educativo" msprop:Generator_ColumnPropNameInRow="Programa_Educativo" msprop:Generator_ColumnPropNameInTable="Programa_EducativoColumn" msprop:Generator_ColumnVarNameInTable="columnPrograma_Educativo" msprop:Generator_UserColumnName="Programa_Educativo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

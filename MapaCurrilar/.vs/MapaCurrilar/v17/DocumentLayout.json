@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rober\\source\\repos\\MapaCurrilar\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F92DC1-4DBB-4308-9695-749CBB6CCE0F}|MapaCurrilar\\MapaCurrilar.csproj|C:\\Users\\rober\\source\\repos\\MapaCurrilar\\mapacurrilar\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5F92DC1-4DBB-4308-9695-749CBB6CCE0F}|MapaCurrilar\\MapaCurrilar.csproj|solutionrelative:mapacurrilar\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F92DC1-4DBB-4308-9695-749CBB6CCE0F}|MapaCurrilar\\MapaCurrilar.csproj|c:\\users\\rober\\source\\repos\\mapacurrilar\\mapacurrilar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B5F92DC1-4DBB-4308-9695-749CBB6CCE0F}|MapaCurrilar\\MapaCurrilar.csproj|solutionrelative:mapacurrilar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F92DC1-4DBB-4308-9695-749CBB6CCE0F}|MapaCurrilar\\MapaCurrilar.csproj|C:\\Users\\rober\\source\\repos\\MapaCurrilar\\mapacurrilar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F92DC1-4DBB-4308-9695-749CBB6CCE0F}|MapaCurrilar\\MapaCurrilar.csproj|solutionrelative:mapacurrilar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rober\\source\\repos\\MapaCurrilar\\MapaCurrilar\\Form2.cs",
+              "RelativeDocumentMoniker": "MapaCurrilar\\Form2.cs",
+              "ToolTip": "C:\\Users\\rober\\source\\repos\\MapaCurrilar\\MapaCurrilar\\Form2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "MapaCurrilar\\Form2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T16:02:54.063Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rober\\source\\repos\\MapaCurrilar\\MapaCurrilar\\Form1.cs",
+              "RelativeDocumentMoniker": "MapaCurrilar\\Form1.cs",
+              "ToolTip": "C:\\Users\\rober\\source\\repos\\MapaCurrilar\\MapaCurrilar\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "MapaCurrilar\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:07:01.88Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\rober\\source\\repos\\MapaCurrilar\\MapaCurrilar\\Form1.cs",
+              "RelativeDocumentMoniker": "MapaCurrilar\\Form1.cs",
+              "ToolTip": "C:\\Users\\rober\\source\\repos\\MapaCurrilar\\MapaCurrilar\\Form1.cs",
+              "RelativeToolTip": "MapaCurrilar\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADgvw8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T15:22:36.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
